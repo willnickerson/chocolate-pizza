@@ -3,6 +3,31 @@ main {
   margin: 0 auto;
 }
 
+h2 {
+    margin: 0;
+}
+
+.top_line {
+  width: 100%;
+  margin: 0;
+  display: inline-flex;
+  color: rgb( 160, 160, 160);
+}
+
+h5 {
+  float: left;
+  margin: 0px 620px 0px 0px;
+}
+
+h6 {
+  float:right;
+  margin: 0;
+}
+
+p {
+  text-indent: 2em;
+}
+
 .ingredients {
   background-image: url("img/list-bg.png");
 }
@@ -113,4 +138,15 @@ button {
   color: rgb(160,160,160);
   text-align: center;
   margin-bottom: 20px;
+}
+  
+.ingredient_lists {
+  display: inline-flex;
+  font-size: 18px;
+}
+
+ul {
+  width: 400px;
+  margin: 20px 0px 40px 40px;
+  list-style-type: circle;
 }

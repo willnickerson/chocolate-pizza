@@ -139,13 +139,13 @@ button {
   text-align: center;
   margin-bottom: 20px;
 }
-  
+
 .ingredient_lists {
   display: inline-flex;
   font-size: 18px;
 }
 
-ul {
+.ingredient_lists ul {
   width: 400px;
   margin: 20px 0px 40px 40px;
   list-style-type: circle;
